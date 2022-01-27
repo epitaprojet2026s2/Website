@@ -1,4 +1,10 @@
 @charset "utf-8";
+@font-face {
+    font-family: typewriter;
+    src: url('font/typewriter.ttf');
+}
+
+
 /*
 /*	Copyright (c) 2020 Marketify
 /*	Author: Marketify
@@ -26,7 +32,7 @@
 html {
 	overflow-x: hidden;
 	padding: 0px;
-	margin: 0px
+	margin: 0px;
 }
 body{
 	font-family: "Mulish";
@@ -472,12 +478,12 @@ img.svg{
 }
 .waxon_tm_hero .content_inner h3{
 	color: #000;
-	font-size: 120px;
-	font-weight: 900;
-	text-transform: uppercase;
+	font-size: 100px;
 	margin: 0px;
 	padding: 0px;
 	line-height: 1.1;
+	overflow-wrap: break-word;
+	font-family: typewriter;
 }
 .waxon_tm_hero .content_inner h3.stroke{
 	-webkit-text-stroke: 1px #000;
@@ -573,7 +579,7 @@ img.svg{
 	clear: both;
 	float: left;
 	margin-bottom: 193px;
-	padding-top: 280px;
+	padding-top: 130px;
 }
 .waxon_tm_about .about_inner{
 	width: 100%;
@@ -599,6 +605,7 @@ img.svg{
 	border-bottom: 1px solid rgba(0,0,0,.2);
 	padding-bottom: 35px;
 	margin-bottom: 32px;
+
 }
 .waxon_tm_about .name h3{
 	text-transform: uppercase;
@@ -606,6 +613,7 @@ img.svg{
 	font-size: 35px;
 	position: relative;
 	color: #000;
+
 }
 .waxon_tm_about .name h3 .bg{
 	position:absolute;
@@ -639,6 +647,7 @@ img.svg{
 	height: auto;
 	clear: both;
 	float: left;
+	margin-bottom: 30px;
 }
 .waxon_tm_button a{
 	text-decoration: none;
@@ -648,6 +657,7 @@ img.svg{
 	display: inline-block;
 	border-radius: 50px;
 	border: 2px solid #000;
+	margin: 10px;
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -727,7 +737,7 @@ img.svg{
 	clear: both;
 	float: left;
 	margin-bottom: 200px;
-	padding: 255px 0px 200px 0px;
+	padding: 150px 0px 200px 0px;
 	background-color: #f8f9fa;
 }
 .waxon_tm_portoflio .portfolio_inner{
@@ -1439,8 +1449,7 @@ body.dark .waxon_tm_partners ul.dark{display: none;}
 	clear: both;
 	float: left;
 	position: relative;
-	margin-bottom: 200px;
-	padding-top: 255px;
+	padding-top: 120px;
 }
 .waxon_tm_contact .contact_inner{
 	width: 100%;
@@ -1529,11 +1538,6 @@ body.dark .waxon_tm_partners ul.dark{display: none;}
 	padding-left: 25px;
 	position: relative;
 	top:6px;
-}
-.waxon_tm_contact .map_wrap .map {
-  min-height: 359px;
-  width: 100%;
-  border-radius: 10px;
 }
 
 /*---------------------------------------------------*/
@@ -2514,4 +2518,9 @@ body.dark .waxon_tm_commentbox_wrap .wp .text a{color: #fff;}
 	.waxon_tm_portfolio_single .hero .content h3{font-size: 40px;}
 	.waxon_tm_news .news_inner{padding-top: 60px;}
 	
+}
+
+@media (max-width: 500px) {
+	.waxon_tm_hero .content_inner h3{font-size: 40px;}
+	.waxon_tm_topbar .topbar_inner .logo .dark a{width: 50px;}
 }

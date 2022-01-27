@@ -98,6 +98,7 @@ body.dark .waxon_tm_news{background-color: #111;}
 body.dark .waxon_tm_news .news_inner ul li .details .title a{color: #fff;}
 body.dark .waxon_tm_read_more a:before{background-color: #fff;}
 body.dark .waxon_tm_read_more a{color: #fff;}
+body.dark .waxon_tm_contact{background-color: #111;}
 body.dark .waxon_tm_contact .fields ul li input{background-color: #000;border-color: rgba(255,255,255,.2);color: #fff;}
 body.dark .waxon_tm_contact .fields .last textarea{background-color: #000;border-color: rgba(255,255,255,.2);color: #fff;}
 body.dark .waxon_tm_copyright{border-top: 1px solid rgba(255,255,255,.2);}
