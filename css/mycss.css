@@ -578,8 +578,8 @@ img.svg{
 	height: auto;
 	clear: both;
 	float: left;
-	margin-bottom: 193px;
-	padding-top: 130px;
+	margin-bottom: 250px;
+	padding-top: 170px;
 }
 .waxon_tm_about .about_inner{
 	width: 100%;
@@ -1088,7 +1088,7 @@ body.dark .waxon_tm_partners ul.dark{display: none;}
 } 
 .waxon_tm_partners ul li img{
 	max-width: 88%;
-    max-height: 100px;
+	max-height: 100px;
 	
 } 
 .waxon_tm_partners ul li .list_inner{
@@ -1131,6 +1131,12 @@ body.dark .waxon_tm_partners ul.dark{display: none;}
 	align-items: center;
 	padding-top: 105px;
 }
+
+.waxon_tm_testimonials .testi_inner ul li{
+	padding-bottom: 35px;
+}
+
+
 .waxon_tm_testimonials .testi_inner .left{
 	width: 50%;
 	padding-right: 50px;
@@ -1326,7 +1332,7 @@ body.dark .waxon_tm_partners ul.dark{display: none;}
 	height: auto;
 	clear: both;
 	float: left;
-	padding: 250px 0px 90px 0px;
+	padding: 120px 0px 90px 0px;
 	background-color: #f8f9fa;
 }
 .waxon_tm_news .news_inner{
@@ -1449,7 +1455,8 @@ body.dark .waxon_tm_partners ul.dark{display: none;}
 	clear: both;
 	float: left;
 	position: relative;
-	padding-top: 120px;
+	padding-top: 130px;
+	padding-bottom: 50px;
 }
 .waxon_tm_contact .contact_inner{
 	width: 100%;
@@ -1522,11 +1529,7 @@ body.dark .waxon_tm_partners ul.dark{display: none;}
 	text-align: left;
 	font-weight: 500;
 }
-.waxon_tm_contact .contact_error{
-	color: #F52225;
-	text-align: left;
-	font-weight: 500;
-}
+
 .waxon_tm_contact .returnmessage{
 	color:#3A00FF;
 	margin-bottom: 7px;
@@ -2431,7 +2434,7 @@ body.dark .waxon_tm_commentbox_wrap .wp .text a{color: #fff;}
 	.waxon_tm_topbar_single{display: none;}
 	.waxon_tm_mobile_menu{display: block;}
 	.waxon_tm_mobile_menu_single{display: block;}
-	.waxon_tm_hero .content_inner h3{font-size: 60px;}
+	.waxon_tm_hero .content_inner h3{font-size: 70px;}
 	.waxon_tm_main_title .title h3 .bg{display: none;}
 	.waxon_tm_about .name h3 .bg{display: none;}
 	.waxon_tm_about .about_inner{flex-direction: column;align-items: baseline;}
@@ -2469,14 +2472,16 @@ body.dark .waxon_tm_commentbox_wrap .wp .text a{color: #fff;}
 	.waxon_tm_copyright .copyright_inner > ul{display: block;margin: 0px;}
 	.waxon_tm_about .name h3{font-size: 30px;}
 	.waxon_tm_main_title .title h3{font-size: 30px;}
-	.waxon_tm_about{padding-top: 180px;margin-bottom: 93px;}
+	.waxon_tm_about{padding-top: 100px; margin-bottom: 93px;}
 	.waxon_tm_service{margin-bottom: 90px;}
 	.waxon_tm_portoflio{padding: 90px 0px 100px 0px;margin-bottom: 100px;}
 	.waxon_tm_partners{margin-bottom: 90px;}
 	.waxon_tm_testimonials .testi_inner{padding-top: 45px;}
+
+
 	.waxon_tm_testimonials{margin-bottom: 80px;}
-	.waxon_tm_news{padding-top: 90px;padding-bottom: 50px;}
-	.waxon_tm_contact{padding-top: 95px;margin-bottom: 105px;}
+	.waxon_tm_news{padding-top: 90px;padding-bottom: 60px;}
+	.waxon_tm_contact{padding-top: 95px;margin-bottom: 0px;}
 	.waxon_tm_contact .desc{padding-top: 35px;max-width: 100%;}
 	.waxon_tm_copyright{padding: 70px 0px 40px 0px;}
 	.waxon_tm_copyright .copyright_inner > ul > li{margin-bottom: 15px;}
@@ -2523,4 +2528,5 @@ body.dark .waxon_tm_commentbox_wrap .wp .text a{color: #fff;}
 @media (max-width: 500px) {
 	.waxon_tm_hero .content_inner h3{font-size: 40px;}
 	.waxon_tm_topbar .topbar_inner .logo .dark a{width: 50px;}
+	.waxon_tm_mobile_menu .logo img{max-width: 50px;}
 }
