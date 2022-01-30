@@ -421,6 +421,7 @@ img.svg{
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
+	z-index: -1;
 }
 .waxon_tm_hero .background .leftpart{
 	width: 33%;
