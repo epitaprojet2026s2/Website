@@ -2479,8 +2479,9 @@ body.dark .waxon_tm_commentbox_wrap .wp .text a{color: #fff;}
 	.waxon_tm_portoflio{padding: 90px 0px 100px 0px;margin-bottom: 100px;}
 	.waxon_tm_partners{margin-bottom: 90px;}
 	.waxon_tm_testimonials .testi_inner{padding-top: 45px;}
-	.Mobile{display: inline-block;}
-	.marge{display: inline-block;}
+	.Mobile{display: none;}
+	.marge{display: none;}
+	.waxon_tm_hero .background{height: 100%;}
 	
 
 
