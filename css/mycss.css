@@ -2428,6 +2428,7 @@ body.dark .waxon_tm_commentbox_wrap .wp .text a{color: #fff;}
 	.waxon_tm_hero .background .leftpart{width: 0%;}
 	.waxon_tm_hero .background .rightpart{padding-left: 0px;}
 	.waxon_tm_hero .content_inner h3{font-size: 90px;}
+
 }
 
 @media (max-width: 1040px) {
@@ -2478,6 +2479,8 @@ body.dark .waxon_tm_commentbox_wrap .wp .text a{color: #fff;}
 	.waxon_tm_portoflio{padding: 90px 0px 100px 0px;margin-bottom: 100px;}
 	.waxon_tm_partners{margin-bottom: 90px;}
 	.waxon_tm_testimonials .testi_inner{padding-top: 45px;}
+	.Mobile{display: none;}
+	
 
 
 	.waxon_tm_testimonials{margin-bottom: 80px;}
@@ -2530,4 +2533,10 @@ body.dark .waxon_tm_commentbox_wrap .wp .text a{color: #fff;}
 	.waxon_tm_hero .content_inner h3{font-size: 40px;}
 	.waxon_tm_topbar .topbar_inner .logo .dark a{width: 50px;}
 	.waxon_tm_mobile_menu .logo img{max-width: 50px;}
+}
+
+.marge{
+	height : 100 vh;
+	width : 100 vw;
+	background-color: #f01a1a;
 }
