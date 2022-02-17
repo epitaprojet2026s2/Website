@@ -2480,6 +2480,7 @@ body.dark .waxon_tm_commentbox_wrap .wp .text a{color: #fff;}
 	.waxon_tm_partners{margin-bottom: 90px;}
 	.waxon_tm_testimonials .testi_inner{padding-top: 45px;}
 	.Mobile{display: none;}
+	.marge{display: inline-block;}
 	
 
 
@@ -2536,6 +2537,7 @@ body.dark .waxon_tm_commentbox_wrap .wp .text a{color: #fff;}
 }
 
 .marge{
-	height : 100 vh;
-	width : 100 vw;
+	display: none;
+	height : 900 px;
+
 }
