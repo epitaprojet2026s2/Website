@@ -579,7 +579,7 @@ img.svg{
 	height: auto;
 	clear: both;
 	float: left;
-	margin-bottom: 250px;
+	margin-bottom: 0px;
 	padding-top: 170px;
 }
 .waxon_tm_about .about_inner{
@@ -1445,6 +1445,135 @@ body.dark .waxon_tm_partners ul.dark{display: none;}
 	padding-left: 45px;
 }
 .waxon_tm_read_more a:hover:before{width: 35px;}
+
+/*---------------------------------------------------*/
+/*	11) WAXON NEWS BIS
+/*---------------------------------------------------*/
+
+.waxon_tm_bis{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding: 120px 0px 90px 0px;
+	background-color: #000000;
+}
+.waxon_tm_bis .bis_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 10px;
+}
+.waxon_tm_bis .waxon_tm_buttons{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-top: 30px;
+}
+.waxon_tm_bis .bis_inner ul{
+	margin: 0px 0px 0px -100px;
+	list-style-type: none;
+}
+.waxon_tm_bis .bis_inner ul li{
+	margin: 0px 0px 100px 0px;
+	float: left;
+	width: 50%;
+	padding-left: 100px;
+}
+.waxon_tm_bis .bis_inner ul li .list_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+}
+.waxon_tm_bis .bis_inner ul li .list_inner .image{
+	position: relative;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.waxon_tm_bis .bis_inner ul li .list_inner .image img{
+	opacity: 0;
+	min-width: 100%;
+}
+.waxon_tm_bis .bis_inner ul li .list_inner .image .main{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.waxon_tm_bis .bis_inner ul li .list_inner .image:hover .main{
+	transform: scale(1.1) translateZ(0);
+}
+.waxon_tm_bis .bis_inner ul li .details .title{
+	margin: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.waxon_tm_bis .bis_inner ul li .details .title a{
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.waxon_tm_read_more_bis{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.waxon_tm_read_more_bis a{
+	text-decoration: none;
+	color: #000;
+	position: relative;
+	display: inline-block;
+	padding-left: 0px;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.waxon_tm_read_more_bis a:before{
+	position: absolute;
+	content: "";
+	width: 0px;
+	height: 1px;
+	background-color: #000;
+	left: 0px;
+	top: 50%;
+	transform: translateY(-50%);
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.waxon_tm_read_more_bis a:hover{
+	padding-left: 45px;
+}
+.waxon_tm_read_more_bis a:hover:before{width: 35px;}
 
 /*---------------------------------------------------*/
 /*	11) WAXON CONTACT
@@ -2479,7 +2608,11 @@ body.dark .waxon_tm_commentbox_wrap .wp .text a{color: #fff;}
 	.waxon_tm_portoflio{padding: 90px 0px 100px 0px;margin-bottom: 100px;}
 	.waxon_tm_partners{margin-bottom: 90px;}
 	.waxon_tm_testimonials .testi_inner{padding-top: 45px;}
-	.Mobile{display: none;}
+	.Mobile{
+		display: none;
+		object-fit: cover;
+		position: absolute;
+	}
 	.marge{display: none;}
 	.waxon_tm_hero .background{height: 100%;}
 	
@@ -2541,4 +2674,12 @@ body.dark .waxon_tm_commentbox_wrap .wp .text a{color: #fff;}
 	display: none;
 	height : 100 px;
 
+}
+
+#Mobile{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
 }
